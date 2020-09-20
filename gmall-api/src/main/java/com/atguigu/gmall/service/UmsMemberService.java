@@ -1,9 +1,9 @@
-package com.atguigu.gmall.user.mapper;
+package com.atguigu.gmall.service;
 
 import com.atguigu.gmall.bean.UmsMember;
 
 import java.util.List;
 
-public interface UmsMemberMapper {
+public interface UmsMemberService {
     List<UmsMember> queryForAll();
 }
